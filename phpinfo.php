@@ -1,0 +1,7 @@
+<?php
+//
+// debugging :D
+//
+
+phpinfo();
+?>

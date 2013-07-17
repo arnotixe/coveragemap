@@ -1,0 +1,2 @@
+
+Warning: mysql_fetch_array() expects parameter 1 to be resource, boolean given in /var/www/dump2.php on line 17

@@ -1,0 +1,53 @@
+set dgrid
+
+#output gif
+#set terminal gif xffffff size 800 600
+set terminal gif xffffff size 1207, 1575
+set output "real.gif"
+
+# contours
+#set contour surface
+# set cntrparam levels 5
+#set isosamples 5
+
+
+## for BW prints/data
+set palette gray
+
+# 1207x1575
+set xrange [0:1207]
+set yrange [0:1575]
+
+# No border
+unset border
+set lmargin at screen 0
+set bmargin at screen 0
+set rmargin at screen 1
+set tmargin at screen 1
+
+# No X line dots/values
+unset xtics
+
+# No Y line dots/values
+unset ytics
+
+# No legend scale box
+unset colorbox 
+
+# No key
+unset key
+
+# No key
+unset label
+
+# No logarithmic ... ?
+unset log
+
+# Auto-interpolation 0,0
+#set pm3d map interpolate 2,2
+set pm3d map interpolate 0,0
+
+#2d view
+set pm3d map
+
+splot 'data.txt' with pm3d

@@ -1,0 +1,18 @@
+0 0 0
+1207 1575 0
+581 1354 0
+1024 261 0
+921 323 91
+906 798 27
+1008 803 0
+622 1405 30
+856 1401 96
+413 1048 94
+402 1345 95
+405 779 97
+405 309 99
+390 1235 99
+
+Warning: mysql_fetch_array() expects parameter 1 to be resource, boolean given in /var/www/dump2.php on line 17
+673 1245 65
+233 1458 48
